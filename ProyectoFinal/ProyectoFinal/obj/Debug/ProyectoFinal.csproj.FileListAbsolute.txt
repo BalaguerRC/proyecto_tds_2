@@ -62,7 +62,6 @@ C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\Pro
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormInicio.resources
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormInventarioAdmin.resources
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormLogin.resources
-C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormMenuPrincipal.resources
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormSplash.resources
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormUsers.resources
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Properties.Resources.resources
@@ -72,3 +71,5 @@ C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\Pro
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.ResolveComReference.cache
+C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormMenuPrincipalEmpleado.resources
+C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormMenuE.resources

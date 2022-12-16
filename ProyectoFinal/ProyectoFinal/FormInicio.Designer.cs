@@ -61,7 +61,7 @@
             this.lblUser.AutoSize = true;
             this.lblUser.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.ForeColor = System.Drawing.Color.DarkTurquoise;
+            this.lblUser.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.lblUser.Location = new System.Drawing.Point(702, 0);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(115, 285);

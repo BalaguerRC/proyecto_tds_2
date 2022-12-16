@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ListasTipos.cs" />
     <Compile Include="LoginRepo.cs" />
+    <Compile Include="Models\Cache.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\TipoProducto.cs" />
