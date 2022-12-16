@@ -19,50 +19,53 @@ namespace ProyectoFinal
             InitializeComponent();
         }
 
-        private void enviarEmail()
+        private void enviarEmail(string para, string asunto, string mensaje)
         {
-            //string mail = "lectorexample@gmail.com";
-            //string pass = "Lectorexample10";
-
-
-            //cliente.Port = 587;
-            
-            //cliente.Host = "smtp.gmail.com";
-            
-            //try
-            //{
+            try
+            {
 
                 MailMessage msg = new MailMessage();
                 SmtpClient cliente = new SmtpClient("smtp.gmail.com", 587);
                 msg.From = new MailAddress("lectorexample@gmail.com", "Lector Programa");
-                msg.To.Add(txtPara.Text);
-                msg.Subject = txtAsunto.Text;
-                msg.Body = "Prueba de envio";  //txtMensaje.TexT
+                msg.To.Add(para);
+                msg.Subject =asunto;
+                msg.Body = mensaje;  //txtMensaje.TexT
                 msg.IsBodyHtml = false;
 
                 //msg.SubjectEncoding = Encoding.UTF8;
                 //msg.BodyEncoding = Encoding.UTF8;
-
-
-
-                
-                cliente.Credentials = new NetworkCredential("lectorexample@gmail.com", "Lectorexample10");
+                cliente.Credentials = new NetworkCredential("lectorexample@gmail.com", "mmxymtcgptgnxlpt");
                 cliente.EnableSsl = true;
                 cliente.Send(msg);
                 MessageBox.Show("Enviado", "Aviso Email");
 
-            //}
-            //catch (Exception)
-            //{
+            }
+            catch (Exception)
+            {
 
-                //MessageBox.Show("Ocurrio un error", "Aviso Email");
-            //}
+                MessageBox.Show("Ocurrio un error", "Aviso Email");
+            }
         }
 
         private void btnEnvio_Click(object sender, EventArgs e)
         {
-            //enviarEmail(txtPara.Text, txtAsunto.Text, txtMensaje.Text);
-            enviarEmail();
+            if (string.IsNullOrEmpty(txtPara.Text))
+            {
+                MessageBox.Show("Escriba el destinatario", "Aviso Email");
+            }
+            else if (string.IsNullOrEmpty(txtAsunto.Text))
+            {
+                MessageBox.Show("Escriba el asunto", "Aviso Email");
+            }
+            else if (string.IsNullOrEmpty(txtMensaje.Text))
+            {
+                MessageBox.Show("Escriba el mensaje", "Aviso Email");
+            }
+            else
+            {
+                enviarEmail(txtPara.Text, txtAsunto.Text, txtMensaje.Text);
+            }
+            //enviarEmail();
         }
     }
 }

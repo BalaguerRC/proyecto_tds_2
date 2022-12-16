@@ -44,6 +44,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.272727F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
@@ -102,6 +103,7 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Left;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Aqua;
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 37);
@@ -113,6 +115,7 @@
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Left;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Aqua;
             this.label3.Location = new System.Drawing.Point(3, 68);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 34);
@@ -122,20 +125,24 @@
             // btnEnvio
             // 
             this.btnEnvio.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnEnvio.BackColor = System.Drawing.Color.Turquoise;
             this.btnEnvio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEnvio.FlatAppearance.BorderSize = 0;
             this.btnEnvio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnvio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnvio.Location = new System.Drawing.Point(704, 386);
+            this.btnEnvio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnvio.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnEnvio.Location = new System.Drawing.Point(617, 386);
             this.btnEnvio.Name = "btnEnvio";
-            this.btnEnvio.Size = new System.Drawing.Size(88, 42);
+            this.btnEnvio.Size = new System.Drawing.Size(175, 42);
             this.btnEnvio.TabIndex = 6;
             this.btnEnvio.Text = "Enviar";
-            this.btnEnvio.UseVisualStyleBackColor = true;
+            this.btnEnvio.UseVisualStyleBackColor = false;
             this.btnEnvio.Click += new System.EventHandler(this.btnEnvio_Click);
             // 
             // txtMensaje
             // 
+            this.txtMensaje.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMensaje.Location = new System.Drawing.Point(3, 181);
             this.txtMensaje.Name = "txtMensaje";
             this.txtMensaje.Size = new System.Drawing.Size(789, 198);
@@ -145,16 +152,19 @@
             // txtAsunto
             // 
             this.txtAsunto.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtAsunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAsunto.Location = new System.Drawing.Point(3, 105);
             this.txtAsunto.Name = "txtAsunto";
-            this.txtAsunto.Size = new System.Drawing.Size(789, 22);
+            this.txtAsunto.Size = new System.Drawing.Size(789, 24);
             this.txtAsunto.TabIndex = 4;
             // 
             // txtPara
             // 
+            this.txtPara.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtPara.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPara.Location = new System.Drawing.Point(3, 40);
             this.txtPara.Name = "txtPara";
-            this.txtPara.Size = new System.Drawing.Size(789, 22);
+            this.txtPara.Size = new System.Drawing.Size(789, 24);
             this.txtPara.TabIndex = 4;
             // 
             // label4
@@ -162,6 +172,7 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Left;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Aqua;
             this.label4.Location = new System.Drawing.Point(3, 136);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(101, 42);
@@ -172,6 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(801, 501);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
