@@ -83,5 +83,10 @@ namespace ProyectoFinal
             form.Show();
         }
         #endregion
+
+        private void btnCategoria_Click(object sender, EventArgs e)
+        {
+            OpenForm(new FormCategoria());
+        }
     }
 }

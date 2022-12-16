@@ -8,7 +8,10 @@ create table tipo_user
 id_type int not null primary key identity(1,1),
 tipo_usuario varchar (50)
 );
-insert into tipo_user(tipo_usuario) values('client')
+insert into tipo_user(tipo_usuario) values('Admin')
+insert into tipo_user(tipo_usuario) values('Empleado')
+update tipo_user set tipo_usuario='empleado' where id_type=2
+select * from tipo_user
 create table log_in
 (
 id_user int not null primary key identity(1,1),
@@ -28,6 +31,8 @@ type_names varchar(50)
 insert into prod_type(type_names) values('otro')
 insert into prod_type(type_names) values('Electronico')
 --select * from prod_type
+Select id_typProd as Id, type_names as Name  from prod_type
+
 create table product
 (
 id_prod int not null primary key identity(1,1),

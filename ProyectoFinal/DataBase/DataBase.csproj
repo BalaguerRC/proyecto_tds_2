@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoriaRepo.cs" />
     <Compile Include="ListasTipos.cs" />
     <Compile Include="LoginRepo.cs" />
     <Compile Include="Models\Cache.cs" />

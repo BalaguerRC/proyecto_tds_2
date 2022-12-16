@@ -40,6 +40,7 @@
             this.btnInicio = new System.Windows.Forms.Button();
             this.btnCorreo = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -51,6 +52,7 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.42276F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 83.57723F));
+            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.panelMostrar, 1, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -70,10 +72,10 @@
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(27)))));
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.btnCorreo, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.btnInicio, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.btnCorreo, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.btnInventario, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.btnsalir, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.btnInventario, 0, 1);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 62);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 5;
@@ -174,7 +176,7 @@
             this.btnCorreo.ForeColor = System.Drawing.Color.Aqua;
             this.btnCorreo.Image = global::ProyectoFinal.Properties.Resources.Proyecto_nuevo2;
             this.btnCorreo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCorreo.Location = new System.Drawing.Point(3, 68);
+            this.btnCorreo.Location = new System.Drawing.Point(3, 125);
             this.btnCorreo.Name = "btnCorreo";
             this.btnCorreo.Size = new System.Drawing.Size(196, 51);
             this.btnCorreo.TabIndex = 1;
@@ -195,14 +197,25 @@
             this.btnInventario.ForeColor = System.Drawing.Color.Aqua;
             this.btnInventario.Image = global::ProyectoFinal.Properties.Resources.Proyecto_nuevo;
             this.btnInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInventario.Location = new System.Drawing.Point(3, 125);
+            this.btnInventario.Location = new System.Drawing.Point(3, 68);
             this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(196, 52);
+            this.btnInventario.Size = new System.Drawing.Size(196, 51);
             this.btnInventario.TabIndex = 0;
             this.btnInventario.Text = "Inventario";
             this.btnInventario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnInventario.UseVisualStyleBackColor = false;
             this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click_1);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gray;
+            this.tableLayoutPanel1.SetColumnSpan(this.flowLayoutPanel1, 2);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.ForeColor = System.Drawing.Color.Aqua;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1263, 53);
+            this.flowLayoutPanel1.TabIndex = 3;
             // 
             // FormMenuE
             // 
@@ -237,5 +250,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolstripfecha;
         private System.Windows.Forms.ToolStripStatusLabel toolStripfecha2;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

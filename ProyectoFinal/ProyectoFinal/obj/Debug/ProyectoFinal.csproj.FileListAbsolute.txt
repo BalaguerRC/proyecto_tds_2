@@ -73,3 +73,4 @@ C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\Pro
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.ResolveComReference.cache
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormMenuPrincipalEmpleado.resources
 C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormMenuE.resources
+C:\Tareas Itla Ultimo Cuatrimestre\Proyecto Final\otra solucion\Proyecto-TDS\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.FormCategoria.resources
