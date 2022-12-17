@@ -71,7 +71,7 @@ const Login =(props)=>{
                     <label id="label">Email</label>
                     <input type="text" id="emailField"/>
                     <p id="error">{errorEmail}</p>
-                    <label id="label">Password</label>
+                    <label id="label">Contraseña</label>
                     <input type="password" id="passwordField"/>
                     <p id="error">{errorPassword}</p>
                     <button className="btn button3" type="submit">{registro ? "Registrate" : "Inicia sesion"}</button>
